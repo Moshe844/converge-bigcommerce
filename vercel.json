@@ -1,0 +1,9 @@
+{
+    "builds": [
+      { "src": "api/process-payment.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/process-payment", "dest": "/api/process-payment.js" }
+    ]
+  }
+  
